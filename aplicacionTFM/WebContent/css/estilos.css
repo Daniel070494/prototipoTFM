@@ -1,0 +1,36 @@
+img{
+    transition:transform 1s;
+}
+img:hover{
+    transform : scale(1.5);
+}
+.btn-danger{
+    margin-left: 15px;
+    transition: transform 0.5s;
+}
+.btn2{    
+    transition: transform 0.5s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+
+
+.common_loader{
+	width: -webkit-fill-available;
+	background: #00000033;
+	height: -webkit-fill-available;
+	position: absolute;
+	z-index: 2;
+}
+
+.common_loader_ico{
+	background: url(../img/sincronizar.svg) center center no-repeat;
+	background-size: 300px;
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	left: 32%;
+	top: 14%;
+	animation: rounding 20.5s;
+}

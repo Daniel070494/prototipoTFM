@@ -1,0 +1,1503 @@
+/* ==================================================================================================== */
+/*                                           CSS                                                        */
+/* ==================================================================================================== */
+
+
+
+/* ==================================================================================================== */
+/*	
+*	COLORES BASE: #219AE2 | #1C3D5D
+*/	
+/* ==================================================================================================== */
+
+
+
+/* ==================================================================================================== */
+/*                                   SECCIONES PRINCIPALES JQUERY                                       */
+/* ==================================================================================================== */
+/* ------------------------------ ( PAGE - HEADER - CONTENT - FOOTER) --------------------------------- */
+.divHeader{
+ 	background-color: white !important;
+	
+ 	/*font-family: Roboto-Regular !important;*/
+ 	font-family: Nunito Sans, sans-serif !important;
+ 	text-align: center !important;
+ 	
+ 	box-shadow: 0.3em .4em 1em 0.3em #CCCCCC;
+}
+.divHeader h2{
+ 	/*font-family: Roboto-Regular !important;*/
+ 	font-family: Nunito Sans, sans-serif !important;
+ 	text-align: center !important;
+ 	color: #219AE2;
+ 	font-size: 19.5px;
+	font-weight: 700;
+}
+.divBody{
+ 	background-color: white !important;
+ 	width: 93% !important;
+ 	
+ 	/*font-family: Roboto-Regular !important;*/
+ 	font-family: Nunito Sans, sans-serif !important;
+ 	
+ 	box-shadow: 0.3em .7em 1.5em 0.3em #CCCCCC;
+ 	border-radius: 1.3em;
+ 	
+ 	margin-top: 1.3em;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	margin-bottom: 15px;
+ 	overflow: auto;
+ 	max-height: 540px;
+ 	min-height: 540px;
+ 	
+ 	text-align: justify;
+	text-shadow: none;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	color: gray !important;
+	font-size: 12px;
+}
+
+.divBodyMin{
+ 	background-color: white !important;
+ 	width: 42% !important;
+ 	
+ 	/*font-family: Roboto-Regular !important;*/
+ 	font-family: Nunito Sans, sans-serif !important;
+ 	
+ 	box-shadow: 0.3em .7em 1.5em 0.3em #CCCCCC;
+ 	border-radius: 1.3em;
+ 	
+ 	margin-top: 8%;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	margin-bottom: 15px;
+ 	overflow: auto;
+ 	max-height: 500px;
+ 	min-height: 320px;
+}
+
+
+
+.divBodyLogin{
+    top: 50%;
+ 	background-color: #fff !important;
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+ 	width: 300px !important;
+ 	/*font-family: Roboto-Regular !important;*/
+ 	font-family: Nunito Sans, sans-serif !important;
+ 	box-shadow: 0.3em .7em 1.5em 0.3em #0000003d;
+ 	border-radius: 1.3em;
+ 	margin-right: auto;
+ 	margin-left: -165px;
+    margin-top: -256px;
+ 	margin-bottom: 0px;
+ 	overflow: auto;
+ 	max-height: 480px;
+ 	min-height: 480px;
+    position: absolute;
+    left: 50%;
+    z-index: 30;
+    
+}
+
+@media only screen and (max-width: 320px) {
+    .divBodyLogin{
+       margin: 0px;
+       width: 93% !important;
+        top: 10px;
+        left: 0px;
+        margin: 0px;
+        
+    }
+    
+    .divLoginLogo{
+        width: 70%;
+       text-align: center;
+        align-content: center;
+    }
+    
+  
+}
+
+
+@media only screen and (max-height: 768px) {
+    .divBodyLogin{
+       margin-top: 6%;
+        top: 0px;
+    }
+    
+    .divLoginLogo{
+        width: 70%;
+        text-align: center;
+        align-content: center;
+    }
+}
+
+
+.divBodyLogin:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+.divLoginContainer {
+	background-color: #00000014;
+	padding: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 12px;
+	height: -webkit-fill-available;
+    border: 12px solid #ffffffe6;
+}
+
+.divHeaderLogin {
+	width: 350px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	background-color: #1c3d5d !important;
+	box-shadow: 0em 0.2em 0.2em 0.2em #0000003d;
+}
+
+.divFooterLogin {
+	width: 350px !important;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	background-color: #1c3d5d !important;
+	box-shadow: 0em -0.2em 0.2em 0.2em #0000003d;
+}
+
+/* ==================================================================================================== */
+/*                                            MEN� - SIDEBAR                                            */
+/* ==================================================================================================== */
+.sideBar {
+	height: -webkit-fill-available;
+	width: 40px;
+	float: left;
+	background-color: #1C3D5D;
+}
+#botonesPanel .ui-btn-icon-notext.ui-corner-all  {
+	border-radius: .3125em;
+	background-color: #1c3d5d;
+	border-width: 0px;
+	margin-bottom: 20px;
+}
+
+#lanzadorPanel .ui-btn-icon-notext.ui-corner-all  {
+	border-radius: .3125em;
+	background-color: #1c3d5d;
+	border-width: 0px;
+	margin-left: 5px;
+	margin-bottom: 20px;
+}
+
+/* ==================================================================================================== */
+/*                                                TABLAS                                                */
+/* ==================================================================================================== */
+table.dataTable tbody tr.selected {
+  background-color: #B0BED9;
+}
+
+.tableStripe {
+ 	color: #1C3D5D;
+	
+	margin-top: 15px;
+	border: none !important;
+	box-shadow: none !important;
+	background-color: transparent !important;
+	width: 100%;
+}
+.tableStripe thead{
+	text-align: center;
+	background: transparent !important;
+}
+.tableStripe tbody{
+	text-align: justify;
+	text-shadow: none;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	color: gray !important;
+	font-size: 11px;
+	
+	background: transparent !important;
+}
+.tableStripe thead tr{
+	font-weight: normal !important;
+ 	/*font-family: Roboto-Regular !important;*/
+ 	font-family: Nunito Sans, sans-serif !important;
+ 	font-size: 12px !important;
+	color: #219AE2 !important; 
+	text-shadow: none !important;
+	border-bottom-color: #000 !important;
+}
+.tableStripe thead th{
+	color: #219AE2 !important; 
+	text-shadow: none !important;
+	border-bottom-color: #219AE2 !important;
+}
+.tableStripe tbody tr{
+	color: gray !important; 
+	text-shadow: none !important;
+}
+
+.table-stripe tbody tr:nth-child(odd) td, .table-stripe tbody tr:nth-child(odd) th{
+	background-color: rgba(33, 154, 226, 0.09) !important;
+}
+
+/* ==================================================================================================== */
+/*                                              PESTA�AS                                                */
+/* ==================================================================================================== */
+/* --------------------------------- M�XIMO 5 ELEMENTOS POR L�NEA ------------------------------------- */ 
+.navbarTablas{
+	background-color: #1C3D5D !important;
+	
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	color: white !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	
+	border-radius: 1.1em;
+	box-shadow: 0.3em .4em 1em 0.3em #CCCCCC;
+	margin-left: 4px !important;
+	margin-right: 4px !important;
+	border-width: 0px !important;
+}
+.navbarTablasB{
+	background-color: #1C3D5D !important;
+	
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	font-size: 12px !important;
+	color: white !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	height: 13px;
+	
+	border-radius: 1.1em;
+	box-shadow: 0em 0.2em 0.2em 0.1em #CCCCCC;
+	margin-left: 4px !important;
+	margin-right: 4px !important;
+	border-width: 0px !important;
+}
+
+.navbarTablasActivoB{
+	background-color: #219AE2 !important;
+	
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	font-size: 12px !important;
+	color: white !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	height: 13px;
+	
+	border-radius: 1.1em;
+	box-shadow: 0em 0.2em 0.2em 0.1em #CCCCCC;
+	margin-left: 4px !important;
+	margin-right: 4px !important;
+	border-width: 0px !important;
+}
+.navbarTablasActivo{
+	background-color: #219AE2 !important;
+	
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	color: white !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	
+	border-radius: 1.1em;
+	box-shadow: 0.3em .4em 1em 0.3em #CCCCCC;
+	margin-left: 8px !important;
+	margin-right: 8px !important;
+	border-width: 0px !important;
+}
+/* ----------------------------------- SIN L�MITE POR L�NEA -------------------------------------- */
+/* ----------------------------------------- @Paco Hdez ------------------------------------------ */
+.navbarTablas-6{
+	background-color: #1C3D5D !important;
+	
+	width: 100%;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	color: white !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	
+	border-radius: 1.1em;
+	box-shadow: 0.3em .4em 1em 0.3em #CCCCCC;
+	margin-left: 4px !important;
+	margin-right: 4px !important;
+	border-width: 0px !important;
+}
+
+/* ==================================================================================================== */
+/*                                              PESTA�AS                                                */
+/* ==================================================================================================== */
+/* ------------------------------- ENCABEZADOS PARA JSP / MODALES ------------------------------------- */
+.comparteJspHeader{
+	height: 20px;
+	background-color: #1C3D5D !important;
+	
+	font-weight: normal !important;
+ 	/*font-family: Roboto-Regular !important;*/
+ 	font-family: Nunito Sans, sans-serif !important;
+ 	font-size: 13px;
+ 	text-align: center !important;
+ 	color: #FFFFFF;
+ 	
+ 	padding: .7em .7em .7em .7em;
+ 	border-radius: 1.4em;
+}
+.comparteJspHeaderLine{
+	height: auto;
+	background-color: transparent !important;
+	width: 100%;
+	
+	font-weight: normal !important;
+ 	/*font-family: Roboto-Regular !important;*/
+ 	font-family: Nunito Sans, sans-serif !important;
+ 	font-size: 13px !important;
+ 	text-align: left !important;
+ 	color: #1C3D5D;
+ 	
+	margin-bottom: 1em !important;
+	padding-bottom: .5em !important;
+ 	padding-left: 0px !important;
+ 	padding-right: 0px !important;
+ 	
+ 	border-radius: 0px !important;
+ 	border-top-width: 0px !important;
+	border-left-width: 0px !important;
+	border-right-width: 0px !important;
+ 	border-bottom-width: 1px !important;
+ 	border-bottom-color: gray !important;
+}
+
+/* ==================================================================================================== */
+/*                                              ALERTAS                                                 */
+/* ==================================================================================================== */
+.alertRed{
+	/*height: 40px !important;*/
+	border-color: red !important;
+	border-width: 1px !important;
+	padding: 5px !important;
+	color: red !important;
+	
+	background-color: rgb(255,0,0,0.12) !important;
+}
+.alertSuccess{
+	/*height: 40px !important;*/
+	border-color: red !important;
+	border-width: 1px !important;
+	padding: 5px !important;
+	color: green !important;
+	
+	background-color: rgb(113,255,0,0.12) !important;
+}
+
+/* ==================================================================================================== */
+/*                                                LABELS                                                */
+/* ==================================================================================================== */
+.labelFormA{
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+	font-size: 12px !important;
+	
+	margin-bottom: 0.1em !important;
+}
+.labelFormB{
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+	font-size: 11px !important;
+	color: #219AE2;
+	
+	margin-bottom: 0.1em !important;
+}
+.labelForList {
+	color: black !important;
+	float: left;
+	/*background-color: #1c3d5d;*/
+	height: 15px;
+	width: 30px;
+	text-align: center;
+	border-radius: 20px;
+	padding: 1px 5px 1px 5px;
+	margin-right: 10px !important;
+	font-size: 12px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.labelForListB {
+	color: black !important;
+	float: right;
+	/*background-color: #1c3d5d;*/
+	height: 15px;
+	width: 15px;
+	text-align: center;
+	border-radius: 20px;
+	padding: 1px 5px 1px 5px;
+	/*margin-right: 10px !important;*/
+	font-size: 12px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+/* ==================================================================================================== */
+/*                                               BOTONES                                                */
+/* ==================================================================================================== */
+/* ------------------------------- MEN� / TABLAS / MODALES / JSP -------------------------------------- */
+.btnMenuPrincipal {
+	width: 75%;
+	height: 30px;
+	
+	margin-left: auto !important;
+	margin-right: auto !important;
+	margin-bottom: 15px !important;
+	
+	border-radius: 10px !important;
+	/*background-color: #1C3D5D !important;*/
+	box-shadow: 0.0em 0.7em 0.3em -0.2em #CCCCCC !important;
+	
+	font-size: 13px !important;
+	color: grey !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+
+.btn_login{
+    margin-top: 40px;
+    color: white;
+    background-color: #1C3D5D;
+    border-color: transparent;
+    font-weight: normal;
+    padding: .7em 1em;
+    line-height: 1.3;
+    font-family: sans-serif;
+    text-rendering: auto;
+        display: block;
+        text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 12pt;
+}
+
+
+.btn_login:hover{
+    background-color: #24609a;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+/* ------------------------------- MEN� / TABLAS / MODALES / JSP -------------------------------------- */
+/* ---------------------------------------------- JSP ------------------------------------------------- */
+.btnStyleA{
+	text-align: justify !important;
+	margin-right: auto !important;
+	margin-left: auto !important;
+	
+	border-radius: 1.5em;
+	background-color: #1C3D5D !important;
+	border-color: transparent !important;
+	
+	border-width: 0px;
+	font-size: 13px !important;
+	color: white !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.btnStyleB{
+	text-align: justify !important;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	width: 180px !important;
+	border-radius: 1.5em;
+	background-color: #1C3D5D !important;
+	border-color: transparent !important;
+	
+	border-width: 0px;
+	font-size: 13px !important;
+	color: white !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.controlBtn{
+	width: 40px !important;
+	font-size: 13px !important;
+	color: white !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+	background-color: #1C3D5D !important;
+}
+.listFas{
+	font-size: 12px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.listFas1{
+	font-size: 12px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.listEdo{
+	font-size: 12px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.listProy{
+	font-size: 12px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.ui-li-count{
+	    width: 30px !important;
+}
+/* ------------------------------- MEN� / TABLAS / MODALES / JSP -------------------------------------- */
+/* -------------------------------------------- TABLAS ------------------------------------------------ */
+#btnReferencia{ 
+ 	background-color: #1C3D5D !important;
+	margin-top: 0.5px !important;
+    border-width: 0px;
+    margin-right: 0px;
+    margin-right: 0px;
+    /*float: right;*/
+	width: 20px;
+	height: 20px;
+}
+#fases{ 
+ 	background-color: #1C3D5D !important;
+	margin-top: 0.5px !important;
+    border-width: 0px;
+    margin-right: 0px;
+    margin-right: 0px;
+    /*float: right;*/
+	width: 20px;
+	height: 20px;
+}
+#estados{ 
+ 	background-color: #1C3D5D !important;
+	margin-top: 0.5px !important;
+    border-width: 0px;
+    margin-right: 0px;
+    margin-right: 0px;
+    /*float: right;*/
+	width: 20px;
+	height: 20px;
+}
+#tipProy{ 
+ 	background-color: #1C3D5D !important;
+	margin-top: 0.5px !important;
+    border-width: 0px;
+    margin-right: 0px;
+    margin-right: 0px;
+    /*float: right;*/
+	width: 20px;
+	height: 20px;
+}
+#btnReferenciaHead{ 
+/*   -- --   */
+ 	background-color: #219AE2 !important;
+	margin-top: -2.1px !important;
+    border-width: 0px;
+    margin-right: 15px;
+	width: 20px;
+	height: 20px;
+}
+.btnOperadores{ 
+ 	color: #F0FFFF; 
+ 	background-color:#1C3D5D;
+}
+/* ------------------------------- MEN� / TABLAS / MODALES / JSP -------------------------------------- */
+/* ------------------------------------------ MODALES ------------------------------------------------- */
+#btnReferenciaHead{ 
+/*   -- --   */
+ 	background-color: #219AE2 !important;
+	margin-top: -2.1px !important;
+    border-width: 0px;
+    margin-right: 15px;
+	width: 20px;
+	height: 20px;
+}
+#btnHeader{ 
+/*   -- BOTON CERRAR DEL POPUP EN HEADER --   */
+ 	background-color: #1C3D5D !important;
+	margin-top: -2.1px !important;
+    border-width: 0pc;
+    margin-top: 15px !important;
+    margin-right: 15px;
+}
+.modalHeader a{ 
+/* -- BOTON CERRAR DEL POPUP EN HEADER -- */
+ 	background-color: #1C3D5D !important;
+ 	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	
+	margin-top: -2.1px !important;
+}
+.modalHeader button{ 
+/* -- BOTON CERRAR DEL POPUP EN HEADER -- */
+ 	background-color: #1C3D5D !important;
+ 	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	
+	margin-top: -2.1px !important;
+}
+
+/* ==================================================================================================== */
+/*                                              MODALES                                                 */
+/* ==================================================================================================== */
+/* --------------------------------- MODALES (POP-UP) & PANELES --------------------------------------- */
+.popupInfoUsuario{ 
+	/* EXCLUSIVO PARA EL BOT�N */
+	background-color: transparent !important;
+	
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	
+	margin-left: 0px;
+	border-width: 0px; 
+}
+.popupInfoUsuario h2{
+	font-size: 13px;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	color: white !important;
+	text-align: center;
+	
+	background-color: transparent !important;
+}
+.popupInfoUsuario li{
+	font-size: 11px;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	color: white !important;
+	text-align: center;
+	
+	background-color: #1C3D5D !important;
+}
+.popupInfoUsuario li a{
+	font-size: 11px;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	color: gray !important;
+	text-align: left;
+	
+	background-color: white !important;
+}
+/* --------------------------------- MODALES (POP-UP) & PANELES --------------------------------------- */
+/* ------------------------------------ PANELES COLAPSIBLE-SET----------------------------------------- */
+.panelDesplegable{
+	background-color: #1C3D5D !important;
+	width: 260px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	color: white !important;
+}
+.panelDesplegable label{
+	font-size: 11px;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	color: white !important;
+}
+.panelDesplegable h3{
+	font-size: 13px;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	color: white !important;
+	text-align: center;
+}
+
+.panelDesplegableDivColapse{
+	background-color: transparent !important;
+	border-radius: 0em;
+	border-width: 0px;
+}
+.panelDesplegableDivColapse div a{
+	color: white !important;
+	font-size: 11px;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	padding-left: 3em;
+	background-color: #102a44 !important;
+	border-color: transparent !important;
+}
+.panelDesplegableDivColapse div li{
+	color: white !important;
+	font-size: 11px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	background-color: #1C3D5D !important;
+	border-color: transparent !important;
+}
+/* --------------------------------- MODALES (POP-UP) & PANELES --------------------------------------- */
+/* -------------------------------------- MODALES (POP-UP) -------------------------------------------- */
+.modalDiv{
+	max-width: 60em;
+	min-width: 59em;
+	max-height: 40em;
+	min-height: 40em;
+	overflow-y: scroll !important;
+	border-width: 0px !important;
+	background-color: #FFF !important;
+}
+.modalDivLarge{
+	width: 1200px !important;
+	height: 720px !important;
+	
+	background-color: #FFF !important;
+	/*margin-left: auto;
+	margin-top: auto;
+	max-width: 120em !important;
+	min-width: 120em !important;
+	max-height: -webkit-fill-available;
+	min-height: 40em;
+	overflow-y: scroll !important;
+	border-width: 0px !important;
+	
+	margin-right: auto !important;*/
+}
+.modalDivLarge iframe {
+	width: 100%;
+	height: 700px;
+	overflow: hidden;
+}
+
+.modalHeader{
+	height: auto;
+	background-color: #1C3D5D !important;
+}
+.modalHeader h2{
+ 	/*font-family: Roboto-Regular !important;*/
+ 	font-family: Nunito Sans, sans-serif !important;
+ 	text-align: center !important;
+ 	color: #FFFFFF;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+	background-color: #1C3D5D !important;
+	width: 100%;
+	margin: 0px !important;
+}
+
+.modalBodyB{
+	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 1.5em;*/
+    /*border-radius: 0.3em;*/
+	background-color: white;
+	height: 677px;
+}
+
+.modalBody{
+	width: 95%;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    border-radius: 1.3em;
+}
+.modalBody div{
+	background-color: transparent;
+	border-width: 0px;
+}
+.modalBody label{
+	font-size: 11px;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	margin-bottom: 0px !important;
+	color: #1C3D5D !important;
+}
+
+/* ==================================================================================================== */
+/*                                              INPUT's                                                 */
+/* ==================================================================================================== */
+
+
+
+.divLoginLogo img{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+}
+
+
+
+.inputTextComment{
+ 	border-bottom-color: #929091 !important;
+	border-radius: .2em;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: thin;
+	/* ICONO DEL INPUT */
+	background: url(../JQuery/images/icons-png/comment-black-sf.png) center left no-repeat;
+	
+	background-color: transparent !important;
+	width: 90%;
+	height: 2.2em;
+	padding-left: 1.5em;
+	
+	color: gray;
+	font-size: 11px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.inputTextCommentB{
+ 	border-bottom-color: #929091 !important;
+	border-radius: .2em;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: thin;
+	/* ICONO DEL INPUT */
+	background: url(../JQuery/images/icons-png/comment-black-sf.png) center left no-repeat;
+	
+	background-color: transparent !important;
+	/*width: 100%;*/
+	height: 2.2em;
+	padding-left: 1.5em;
+	
+	color: gray;
+	font-size: 11px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.inputTextCommentC{
+ 	border-bottom-color: #929091 !important;
+	border-radius: .2em;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: thin;
+	/* ICONO DEL INPUT */
+	background: url(../JQuery/images/icons-png/comment-black-sf.png) center left no-repeat;
+	
+	background-color: transparent !important;
+	width: 100%;
+	height: 2.2em;
+	padding-left: 1.5em;
+	
+	color: gray;
+	font-size: 11px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.inputTextCommentNormal{
+ 	border-bottom-color: #929091 !important;
+	border-radius: .2em;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: thin;
+	/* ICONO DEL INPUT */
+	background: url(../JQuery/images/icons-png/comment-black.png) center left no-repeat;
+	
+	background-color: transparent !important;
+	width: 96%;
+	height: 2.2em;
+	padding-left: 1.5em;
+	
+	color: gray;
+	font-size: 11px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.inputTextNoico{
+	border-bottom-color: #929091 !important;
+	border-radius: .2em;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: thin;
+	background-color: transparent !important;
+	
+	margin-bottom: 1.1em;
+	width: 96%;
+	height: 2.2em;
+	
+	margin-left: auto;
+	margin-right: auto;
+
+    color: gray;
+    font-size: 11px;
+    /*font-family: Roboto-Regular !important;*/
+    font-family: Nunito Sans, sans-serif !important;
+    text-shadow: none !important;
+    font-weight: normal !important;
+    
+    overflow: hidden;
+}
+.inputTextUser{
+ 	border-bottom-color: #929091 !important;
+	border-radius: .2em;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: thin;
+	background-color: transparent !important;
+	width: 96%;
+	height: 3.2em;
+	padding-left: 1.6em;
+	color: black;
+	font-size: 8pt !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+    
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: darkgrey;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: darkgrey;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: darkgrey;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color:darkgrey;
+}
+
+
+.inputTextUserIc{
+	background: url(../img/ic_user.png) center left no-repeat !important;
+}
+
+
+.inputTextEntityIc{
+	background: url(../img/ic_entity.png) center left no-repeat !important;
+}
+
+
+.inputTextRoleIc{
+	background: url(../img/ic_rol.png) center left no-repeat !important;
+}
+
+
+.inputPassLockIc{
+	background: url(../img/ic_psw.png) center left no-repeat !important;
+}
+
+
+.inputTextUserIc,.inputTextEntityIc, .inputTextRoleIc, .inputPassLockIc{
+    background-size: 7% !important;
+    width:24px;
+    height:24px;
+    padding: 15px 0px 12px 30px;
+    background-position:center left !important;
+    
+    width: 100% !important;
+    margin-bottom:20px;
+    margin-top: 10px;
+    
+    
+}
+
+
+
+.inputTextClock{
+ 	border-bottom-color: #929091 !important;
+	border-radius: .2em;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: thin;
+	/* ICONO DEL INPUT */
+	background: url(../JQuery/images/icons-png/clock-black.png) center left no-repeat;
+	
+	background-color: transparent !important;
+	width: 96%;
+	height: 2.2em;
+	padding-left: 1.5em;
+	
+	color: gray;
+	font-size: 11px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.inputTextLocation{
+ 	border-bottom-color: #929091 !important;
+	border-radius: .2em;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: thin;
+	/* ICONO DEL INPUT */
+	background: url(../JQuery/images/icons-png/location-black.png) center left no-repeat;
+	
+	background-color: transparent !important;
+	width: 96%;
+	height: 2.2em;
+	padding-left: 1.5em;
+	
+	color: gray;
+	font-size: 11px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.inputTextPhone{
+ 	border-bottom-color: #929091 !important;
+	border-radius: .2em;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: thin;
+	/* ICONO DEL INPUT */
+	background: url(../JQuery/images/icons-png/phone-black.png) center left no-repeat;
+	
+	background-color: transparent !important;
+	width: 96%;
+	height: 2.2em;
+	padding-left: 1.5em;
+	
+	color: gray;
+	font-size: 11px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+
+.inputDate{
+ 	border-bottom-color: #929091 !important;
+	border-radius: .2em;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: thin;
+	/* ICONO DEL INPUT */
+	background: url(../JQuery/images/icons-png/calendar-black.png) center left no-repeat;
+	
+	background-color: transparent !important;
+	width: 96%;
+	height: 2.2em;
+	padding-left: 1.5em;
+	
+	color: gray;
+	font-size: 11px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.inputDateB{
+ 	border-bottom-color: #929091 !important;
+	border-radius: .2em;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: thin;
+	/* ICONO DEL INPUT */
+	background: url(../JQuery/images/icons-png/calendar-black.png) center left no-repeat;
+	
+	background-color: transparent !important;
+	/*width: 96%;*/
+	height: 2.2em;
+	padding-left: 1.5em;
+	
+	color: gray;
+	font-size: 11px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.inputTextBuscador{ 
+	/* BUSCADOR RENONDEADO */
+	background-color: transparent !important;
+ 	border-color: #929091 !important;
+	border-radius: 1.7em;
+	border-width: thin;
+	/* ICONO DEL INPUT */
+	background: url(../JQuery/images/icons-png/buscador-ico.png) center left no-repeat;
+	
+	width: 40%;
+	height: 2.8em;
+	padding-left: 2em;
+	margin-left: 30%;
+	
+	color: gray;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.inputTextBuscadorPop{ 
+	/* BUSCADOR RENONDEADO */
+	background-color: white !important;
+ 	border-color: #929091 !important;
+	border-radius: 1.7em;
+	border-width: thin;
+	/* ICONO DEL INPUT */
+	background: url(../JQuery/images/icons-png/buscador-ico.png) center left no-repeat;
+	
+	width: 70%;
+	height: 25px;
+	padding-left: 2em;
+	margin-top: 7px;
+	margin-left: 10%;
+	
+	color: gray;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.textArea{
+ 	border-color: #929091 !important;
+	border-radius: .2em;
+	border-width: thin;
+	
+	background-color: transparent !important;
+	width: 96%;
+	padding-left: 1.5em !important;
+	
+	color: gray;
+	font-size: 11px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.inputSelect{
+ 	border-bottom-color: #929091 !important;
+	border-radius: .2em;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: thin;
+	/* ICONO DEL INPUT */
+	background: url(../JQuery/images/icons-png/bars-black.png) center left no-repeat;
+	
+	background-color: transparent !important;
+	width: 96%;
+	height: 2.2em;
+	padding-left: 1.5em !important;
+	
+	color: gray;
+	font-size: 11px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.inputSelectTable{
+ 	border-bottom-color: #929091 !important;
+	border-radius: .2em;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: thin;
+	/* ICONO DEL INPUT */
+	background: url(../JQuery/images/icons-png/bars-black.png) center left no-repeat;
+	
+	background-color: transparent !important;
+	width: 120px;
+	height: 2.2em;
+	padding-left: 1.5em;
+	margin-left: 15px;
+	
+	color: gray;
+	font-size: 11px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+
+/* ==================================================================================================== */
+/*                                           FORMATO GENERAL                                            */
+/* ==================================================================================================== */
+.ui-page-theme-a .ui-btn.ui-btn-active, 
+html .ui-bar-a .ui-btn.ui-btn-active, 
+html .ui-body-a .ui-btn.ui-btn-active, 
+html body .ui-group-theme-a .ui-btn.ui-btn-active, 
+html head + body .ui-btn.ui-btn-a.ui-btn-active, 
+.ui-page-theme-a .ui-checkbox-on:after, html 
+.ui-bar-a .ui-checkbox-on:after, 
+html .ui-body-a .ui-checkbox-on:after, 
+html body .ui-group-theme-a .ui-checkbox-on:after,
+.ui-btn.ui-checkbox-on.ui-btn-a:after, 
+.ui-page-theme-a .ui-flipswitch-active, 
+html .ui-bar-a .ui-flipswitch-active, 
+html .ui-body-a .ui-flipswitch-active, 
+html body .ui-group-theme-a .ui-flipswitch-active, 
+html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active, 
+.ui-page-theme-a .ui-slider-track .ui-btn-active, 
+html .ui-bar-a .ui-slider-track .ui-btn-active, 
+html .ui-body-a .ui-slider-track .ui-btn-active, 
+html body .ui-group-theme-a .ui-slider-track .ui-btn-active, 
+html body div.ui-slider-track.ui-body-a .ui-btn-active{
+	background-color: #1C3D5D;
+}
+
+/* ==//== ==//== COLLAPSIBLE CONTAINER ==//== ==//== */
+.ui-collapsible-heading, .ui-collapsible-heading > .ui-btn{
+	border-color: transparent !important;
+	border-top-left-radius: 12px !important;
+	border-top-right-radius: 12px !important;
+	color: white !important;
+	font-size: 11px !important;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+	background-color: #1C3D5D !important;
+}
+#panel .ui-body-a,.ui-page-theme-a .ui-body-inherit,
+html .ui-bar-a .ui-body-inherit,
+html .ui-body-a .ui-body-inherit,
+html body .ui-group-theme-a .ui-body-inherit,
+html .ui-panel-page-container-a{
+	background-color: #1C3D5D !important;
+	border-color: #1C3D5D !important;
+}
+
+.ui-body-a,.ui-page-theme-a .ui-body-inherit,
+html .ui-bar-a .ui-body-inherit,
+html .ui-body-a .ui-body-inherit,
+html body .ui-group-theme-a .ui-body-inherit,
+html .ui-panel-page-container-a{
+	background-color: #FFF;
+	border-color: #FFF !important;
+}
+.ui-controlgroup-vertical .ui-btn.ui-first-child{
+	/*height: 30px !important;*/
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.ui-checkbox .ui-btn, .ui-radio .ui-btn{
+	/*height: 30px !important;*/
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.ui-btn.my-tooltip-btn,.ui-btn.my-tooltip-btn:hover,.ui-btn.my-tooltip-btn:active{
+	background: none;
+	border: 0;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 12px;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+
+.ui-btn.my-tooltip-btn,.ui-btn.my-tooltip-btn:hover,.ui-btn.my-tooltip-btn:active #idSel{
+	background: none;
+	border: 1px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 12px;
+	/*font-family: Roboto-Regular !important;*/
+	font-family: Nunito Sans, sans-serif !important;
+ 	text-shadow: none !important;
+	font-weight: normal !important;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper{
+	height: -webkit-fill-available;
+}
+
+.ui-collapsible-inset.ui-collapsible-themed-content .ui-collapsible-content {
+    background-color: #FFF !important;
+}
+
+/* ==================================================================================================== */
+/*                                          SCROLL                                                      */
+/* ==================================================================================================== */
+#scrollBody::-webkit-scrollbar-track{
+	margin-right: 20px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+#scrollBody::-webkit-scrollbar{
+	margin-right: 20px;
+	width: 12px;
+	background-color: #CCC;
+}
+
+#scrollBody::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+	background-color: #FFF;
+	height: 300px !important;
+}
+
+
+.scrollBody::-webkit-scrollbar-track{
+	margin-right: 20px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	background-color: #FFF;
+}
+
+.scrollBody::-webkit-scrollbar{
+	margin-right: 20px;
+	width: 12px;
+	background-color: #FFF;
+}
+
+.scrollBody::-webkit-scrollbar-thumb{
+	
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+	background-color:  #1C3D5D;
+	height: 300px !important;
+}
+
+.scrollMin::-webkit-scrollbar-track{
+	margin-right: 20px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	background-color: #FFF;
+}
+
+.scrollMin::-webkit-scrollbar{
+	margin-right: 20px;
+	width: 12px;
+	background-color: #FFF;
+}
+
+.scrollMin::-webkit-scrollbar-thumb{
+	
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.1);
+	background-color:  #1C3D5D;
+	height: 100px !important;
+}
+
+.main{
+	z-index: 0;
+}
+
+ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-dialog-buttons ui-draggable ui-resizable {
+	background-color: #FFF !important;
+}
+
+
+
+
+
+.ui-selectmenu.ui-popup .ui-input-search {
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+.ui-selectmenu.ui-dialog .ui-content {
+	padding-top: 0;
+}
+
+.ui-selectmenu.ui-dialog .ui-selectmenu-list {
+	margin-top: 0;
+}
+
+.ui-selectmenu.ui-popup .ui-selectmenu-list li.ui-first-child .ui-btn {
+	border-top-width: 1px;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+.ui-selectmenu.ui-dialog .ui-header {
+	border-bottom-width: 1px;
+}
+/* ==================================================================================================== */
+/*                                                LOADER                                                */
+/* ==================================================================================================== */
+.loader {
+	z-index: 2000;
+	position: absolute;
+	right: 40%;
+}
+
+/* ==================================================================================================== */
+/*	Autor: @ARA
+	�ltima Actualizaci�n: 13/07/2018                                                                     */
+/* ==================================================================================================== */
+
+
+
+.ui-content {
+	border-width: 0;
+	overflow: visible;
+	overflow-x: hidden;
+	padding: 1em;
+}
